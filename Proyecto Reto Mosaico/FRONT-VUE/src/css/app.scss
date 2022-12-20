@@ -1,0 +1,44 @@
+@font-face {
+  font-family: Roboto;
+  src: url('/font/Roboto-Regular.ttf');
+}
+
+body {
+  font-family: Roboto;
+}
+
+.header {
+  z-index: 1;
+  padding: 10px;
+  height: 72px;
+
+  h1.mosaico-heading {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .navbar-options {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+}
+
+.footer {
+  z-index: 1;
+  background-color: white;
+  color: rgb(94, 94, 94);
+  font-size: 15px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 15px 20px 3px gray;
+  text-shadow: 1px 1px 5px gray;
+
+  img {
+    height: 50px;
+    margin-right: -10px;
+  }
+}
